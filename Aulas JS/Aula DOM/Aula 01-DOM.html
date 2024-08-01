@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aula sobre DOM</title>
+        <style>
+            body {
+                background-color: #b55aff;
+                color: #fff;
+                font: 15pt Arial;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Aula sobre DOM</h1>
+        <p>A partir desta aula vamos dar início a aula de DOM</p>
+        <p>Primeira
+            <strong>DIV</strong>
+        </p>
+        <div id="MSG">Teste</div>
+        <script>
+            // window.document.write(window.document.URL) estou acessando elementos baseados
+            // na "árvore" DOM var corpo = window.document.body atribui a variável corpo
+            // todo o BODY do meu html corpo.style.backgroundColor =  'black';  estilizei o
+            // BODY atráves da variável corpo
+
+            /*
+            var p1 = window.document.getElementsByTagName('p')[0] // Ao usar [0] eu escolho a tag que quero acessar, caso não especifique o numero da tag, serão seleiconadas todas
+            window.document.write("Conteúdo do primeiro paragráfo: " + p1.innerHTML) // neste comando é escrito o conteudo de p1, selecionado anteriormente
+
+            var d = window.document.getElementById('MSG')//estou chamando o elemento pelo ID
+            window.document.write("</br> </br> Nesta linha estou manipulando a DIV: " + d.innerHTML) //estou escrevendo o elemento através da variável criado a partir do mesmo
+            d.style.color  = "yellow";
+            */
+
+            //USANDO O QUERYSELECTOR
+            //d = document.querySelector('div#MSG') // para ID usa "#" e para class usa "."
+            //d.style.color = 'red'
+        </script>
+    </body>
+</html>

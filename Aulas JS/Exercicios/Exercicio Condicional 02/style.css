@@ -1,0 +1,28 @@
+header{
+color: #fff;
+text-align: center;
+}
+
+
+body{
+    background-color: #964ab4;
+}
+
+section{
+    background-color: #fff;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border-radius: 8px;
+    font: 12pt normal arial;
+}
+
+div{
+    padding: 5px;
+}
+
+footer{
+color: #fff;
+text-align: center;
+}
+

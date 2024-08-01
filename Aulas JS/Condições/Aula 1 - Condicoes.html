@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Multas</h1>
+        <input type="number" name="" id="txtVel1">
+        <input type="button" value="verificar" onclick="calcular()">
+        <p id="analise">Resultado da análise</p>
+        <script>
+            function calcular() {
+                var txtv = document.getElementById('txtVel1')
+                var velocidade = Number.parseFloat(txtv.value)
+                var ana = document.getElementById('analise')
+
+                if (velocidade > 60) {
+                    ana.innerHTML = "Você foi multado"
+                } else {
+                    ana.innerHTML = "Prossiga em segurança"
+                }
+            }
+        </script>
+
+    </body>
+</html>
